@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -42,46 +40,40 @@ h2 {
     color: #333;
 }
 
-#GameSection 
-{
-padding: 20px;
+#GameSection {
+    padding: 20px;
 
-
-    
+    .game-card {
+        width: 33%;
+        float: left;
+        height: 300px;
+    }
 }
-img
-{
-    width: 300px;
+
+img {
+    width: 250px;
     height: auto;
     margin: 0 10px;
-        
+
 }
 
-@media only screen and (max-width: 600px)
-{
-    body{
+@media only screen and (max-width: 600px) {
+    body {
         font-size: 14px;
     }
 
-    .container{
+    .container {
         width: 90px;
         margin: 0 auto;
     }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) 
-{
-    body{
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
         font-size: 16px;
     }
 
-    .tablet-section{
+    .tablet-section {
         padding: 20px;
     }
 }
-
-
-
-
-
-

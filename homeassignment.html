@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styleH.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <script>
-            
-        function performlogin() 
-        {
-            alert('You are logged in' );
-            window.location.href='games.html';
+
+        function performlogin() {
+            alert('You are logged in');
+            window.location.href = 'games.html';
         }
-       
+
     </script>
 
     <script>
 
-        function redirectToRelevantPage(){
-            window.location.href="https://dragonara.com/games";
+        function redirectToRelevantPage() {
+            window.location.href = "https://dragonara.com/games";
         }
     </script>
 
 </head>
+
 <body>
     <header>
         <h1>Winners Circle</h1>
@@ -42,9 +43,9 @@
                 <input type="password" id="password" placeholder="Enter your password">
                 <br>
                 <button onclick="performlogin()">Login</button>
-                </div>
-       
-           <form>
+            </div>
+
+            <form>
                 <label for="newUsername"> New Username :</label>
                 <input type="text" id="newUsername" name="newUsername" required>
 
@@ -52,40 +53,76 @@
                 <input type="password" id="newPassword" name="newPassword" required>
 
                 <button type="submit">Register</button>
-             </form>
+            </form>
 
         </section>
 
         <section id="about-us">
-            
+
             <h2>About Us</h2>
-            <p>Welcome to the heart of exhilarating entertainment, where luck meets luxury , welcome to our online casino oasis. At Winners Circle, we redefine the thrill of gaming, offering an immersive experience crafted with innovation and sophistication. Our virtual doors open to a world where excitement knows no bounds, and every spin, shuffle, and deal is an invitation to an unforgettable adventure. Whether you're a seasoned player seeking the rush of high-stakes action or a newcomer exploring the wonders of chance, our platform is designed to cater to every gaming palate. Join us, and let the games begin in an environment where the allure of fortune dances with the elegance of technology. This is more than just a casino; this is your portal to a gaming haven that transcends expectations. </p>
-                
+            <p>Welcome to the heart of exhilarating entertainment, where luck meets luxury , welcome to our online
+                casino oasis. At Winners Circle, we redefine the thrill of gaming, offering an immersive experience
+                crafted with innovation and sophistication. Our virtual doors open to a world where excitement knows no
+                bounds, and every spin, shuffle, and deal is an invitation to an unforgettable adventure. Whether you're
+                a seasoned player seeking the rush of high-stakes action or a newcomer exploring the wonders of chance,
+                our platform is designed to cater to every gaming palate. Join us, and let the games begin in an
+                environment where the allure of fortune dances with the elegance of technology. This is more than just a
+                casino; this is your portal to a gaming haven that transcends expectations. </p>
+
         </section>
 
 
         <section id="contact us">
             <h2>Contact us</h2>
-            <p>Feel free to reach out to us with any questions, concerns, or collaboration inquiries , we're here to assist you on your journey.</p>
+            <p>Feel free to reach out to us with any questions, concerns, or collaboration inquiries , we're here to
+                assist you on your journey.</p>
             <p>Email: CircleOfWinners@Gmail.com</p>
             <p>Phone: +356 77764953</p>
         </section>
-         
-    </main>  
 
-        <div id="GameSection">
-        <h1>Game section</h1>
-        <div class="imagecontainer">
-        <img src="/images/Picture33-1.webp" alt="Game 1"> 
-        <img src="/images/blackjack-1200x834.webp" alt="Game 2">
-        <img src="/images/Sec_poker_914262206.webp" alt="Game 3">
+    </main>
+
+    <div id="GameSection">
+        <h1>Game Section</h1>
+        <div class="game-card">
+            <img src="./images/cards.jpeg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\blackjack.webp" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\Baccarat.jpg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\casino wat.jpeg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\let it ride.jpeg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\Pai Gow hand.jpg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\roulette-wheel.jpg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+        <div class="game-card">
+            <img src=".\images\three card poker.jpeg" alt="Game 1">
+            <button onclick="redirectToRelevantPage()">Try Me</button>
+        </div>
+
         <div>
-      <button onclick="redirectToRelevantPage()">Try me</button>
-        
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"></script>
-     
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+                rel="stylesheet"></script>
+
 
 </body>
+
 </html>
